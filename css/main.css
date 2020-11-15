@@ -1,0 +1,57 @@
+section {
+  padding: 6rem 0;
+}
+.gray-section {
+  background: #f7fafc;
+}
+.primary-color {
+  background: #06d6a0;
+}
+.secondary-color {
+  background: #073b4c;
+}
+h1, h2 {
+  font-weight: 600;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li:before {
+  content: '✅';
+}
+input {
+  border: 1px solid #333;
+  border-radius: 7px;
+  background: transparent;
+  padding: 15px;
+  margin-right: 25px;
+}
+.btn-primary, .btn-primary:hover {
+  border: 1px solid #06d6a0;
+  padding:15px;
+  border-radius: 7px;
+  background: #06d6a0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #999;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #999;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #999;
+}
+@media only screen and (max-width: 600px) {
+  section {
+    padding: 2rem 0;
+  }
+}
