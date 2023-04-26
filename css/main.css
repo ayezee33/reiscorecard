@@ -88,7 +88,7 @@ input {
   }
 }
 .confetti {
-  background-image: url(../img/illustration.jpg);
+  background-image: url(/img/illustration.jpg);
   width: 100%;
   height: 100%;
   color: white;
